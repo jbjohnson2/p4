@@ -6,7 +6,7 @@ phases:
     runtime-versions:
       nodejs: 20
     commands: 
-      -echo installing nodeJS version 20 ...
+      - echo installing nodeJS version 20...
   pre_build:
     commands:
       - echo installing dependencies...
@@ -19,4 +19,4 @@ artifacts:
   files:
     - "**/*"
   discard-paths: no 
-  base-directory: build 
+  base-directory: build
